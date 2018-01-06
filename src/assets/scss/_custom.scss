@@ -4,8 +4,8 @@ $light-grey: #f4f4f7;
 
 body{
   font-family: 'Proxima Nova',arial,sans-serif;
+  overflow-x: hidden;
 }
-
 .head-bar{
  background: $primary-pink;
 }
@@ -79,10 +79,12 @@ li{
   display: block;
 }
 footer{
+  background-size: cover;
   background-color: #f4f4f7;
     background: linear-gradient(to bottom, #eaecf5 0, #f4f4f7 100%);
     padding: 100px;
     text-align: center;
+    height: 100%;
 }
 footer a{
   color: $text-grey;
