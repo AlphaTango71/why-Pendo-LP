@@ -1,0 +1,93 @@
+$primary-pink: #ec2059;
+$text-grey: #555555;
+$light-grey: #f4f4f7;
+
+body{
+  font-family: 'Proxima Nova',arial,sans-serif;
+}
+
+.head-bar{
+ background: $primary-pink;
+}
+.header-logo{
+  width: 110px;
+  margin: 10px 20px;
+}
+.left-content{
+  padding: 100px;
+
+  @media screen and (max-width: 1000px){
+    padding: 50px;
+  }
+  @media screen and (max-width: 400px){
+    padding: 30px;
+  }
+}
+.demo-head{
+  font-family: 'Proxima Nova', arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: $primary-pink;
+  letter-spacing: .1em;
+}
+  .demo-head::before {
+    content: '\f01d';
+    display: inline-block;
+    font-family: 'FontAwesome';
+    margin-right: 10px;
+  }
+h2{
+  font-family: 'Proxima Nova', arial, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: $primary-pink;
+}
+p{
+  color: $text-grey;
+  font-family: 'Proxima Nova', arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+ul {
+  margin-left: 40px;
+}
+li{
+  line-height: 1.3em;
+  margin-bottom: 5px;
+  color: $text-grey;
+}
+.link-return{
+  color: $primary-pink;
+  font-size: 18px;
+  font-weight: 600;
+}
+.color-logo{
+  display: block;
+  margin-top: 30px;
+}
+.right-content{
+  padding: 100px;
+  background-color: $light-grey;
+
+  @media screen and (max-width: 1000px){
+    padding: 30px;
+  }
+}
+
+.download-image{
+  display: block;
+}
+footer{
+  background-color: #f4f4f7;
+    background: linear-gradient(to bottom, #eaecf5 0, #f4f4f7 100%);
+    padding: 100px;
+    text-align: center;
+}
+footer a{
+  color: $text-grey;
+  margin: 0 5px;
+}
+footer p {
+  font-size: .7em;
+}
